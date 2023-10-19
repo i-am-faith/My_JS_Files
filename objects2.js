@@ -29,8 +29,21 @@ const obj3 = {5: "e" , 6: "f"};
 
 
 //accessing keys , values , entries via Objects
-console.log(Object.keys(JSUser));
-console.log("\n");
-console.log(Object.values(JSUser));
-console.log("\n");
-console.log(Object.entries(JSUser));
+// console.log(Object.keys(JSUser));
+// console.log("\n");
+// console.log(Object.values(JSUser));
+// console.log("\n");
+// console.log(Object.entries(JSUser));
+// console.log("\n");
+// console.log(JSUser.hasOwnProperty('age'));
+// console.log(JSUser.hasOwnProperty('year'));
+
+
+//extracting value from objects outside
+const {age} = JSUser;
+console.log(age);
+//object destructure
+const {age : Age} = JSUser;
+console.log(Age);
+
+
